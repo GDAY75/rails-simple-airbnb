@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+ a {
+  text-decoration: none;
+ }
+
+ li {
+  list-style-type: none;
+  margin: 10px;
+ }
+
+ ul {
+  display: flex;
+ }
+
+ .turtle {
+  margin-inline: 500px;
+  margin-top: 50px;
+ }

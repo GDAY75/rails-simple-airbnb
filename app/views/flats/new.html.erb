@@ -1,0 +1,11 @@
+<div class="turtle bg-light p-3">
+  <h1>Add a new Flat</h1>
+  <%= simple_form_for @flat do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :description %>
+    <%= f.input :number_of_guests %>
+    <%= f.input :price_per_night %>
+    <%= f.submit "Create Flat", class: "btn btn-primary" %>
+  <% end %>
+</div>
